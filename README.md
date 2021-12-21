@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._ filebeat-playbook https://docs.google.com/document/d/17yg300p2XpVpN4k9-AqRPC56hK778cL1v2vCDYFPz_g/edit?usp=sharing
+  - _TODO: Enter the playbook file._ filebeat-playbook
 
 This document contains the following details:
 - Description of the Topologu
