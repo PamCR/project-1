@@ -27,9 +27,9 @@ Load balancing ensures that the application will be highly protected from a DDos
 - * What aspect of security do load balancers protect? What is the advantage of a jump box? Load balancers protect from a DDoS attack by distributing traffic in a balanced way. A jump box will allow us access to all our VM's from one device, can facilitate management of other VM's, and gives secure access.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
-- _TODO:* What does Filebeat watch for?_
+- * What does Filebeat watch for?_
 - Filebeat watches log files, as well as log events. 
-- _TODO:* What does Metricbeat record?_ Metricbeat records metrics and statistics from an operating system. 
+- * What does Metricbeat record?_ Metricbeat records metrics and statistics from an operating system. 
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -70,7 +70,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+
 ![](Images/project1-day1-docksnap.PNG)
 
 ### Target Machines & Beats
@@ -96,9 +96,9 @@ SSH into the control node and follow the steps below:
 - Update the _____ file to include the ip address 
 - Run the playbook, and navigate to ____ to check that the installation worked as expected.
 
-_TODO:* Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_ its in etc/ansible/files/filebeat-playbook.yml
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ etc/ansible/hosts , add elk server by adding in webserver the elkservers ip address.
+* Answer the following questions to fill in the blanks:_
+-Which file is the playbook? Where do you copy it?_ its in etc/ansible/files/filebeat-playbook.yml
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_ etc/ansible/hosts , add elk server by adding in webserver the elkservers ip address.
 - _Which URL do you navigate to in order to check that the ELK server is running?
 - http://[publicip:5601]/app/kibana
 
