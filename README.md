@@ -3,7 +3,6 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![](diagrams_files/Diagram%20project%201.drawio%20(1).pdf)
 ![](Diagram_1.drawio.png)
 
 
