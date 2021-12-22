@@ -81,9 +81,13 @@ _ web-1:10.0.0.5 web_2:10.0.0.6 web-3:10.0.0.7
 We have installed the following Beats on these machines:
 - Filebeat and Metricbeat
 
+
 These Beats allow us to collect the following information from each machine:
  Filebeat collects log files from the machines. For each log it makes a harvester.
+ Example of filebeat:
+ ![](examplefilebeat.PNG)
 - Metricbeat collects system and application metrics. Example:
+![](Examplemetricbeat.PNG)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
